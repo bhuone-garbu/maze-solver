@@ -83,10 +83,12 @@ This create a file <code>solution-path.txt</code> that contains the total number
 RRRRDDDD
 </pre>
 
-<h5>display maze flag</h5>
-If <code>-d</code> flag is provided, it also prints the text version of maze like the one above:
+<h4>The display maze flag</h4>
+
+If **-d** flag is provided, it also prints the text version of maze like the one above:
+
 <pre>
-~$ ./bhuone-maze-solver small-maze.txt maze-path.txt -d
+$ ./bhuone-maze-solver small-maze.txt maze-path.txt -d
 
 Displaying maze:
 +-+-+-+-+-+
@@ -116,11 +118,13 @@ Displaying maze after simplifying:
 +-+-+-+-+ +
 | | | | |E|
 +-+-+-+-+-+
+
 </pre>
 
 However, I **do not recommend** if the maze is really big like the one I've provided in the project folder. The small and medium mazes should be fine as it does not take too much width space on the terminal.
 
 Example with the medium sized maze:
+
 <pre>
 $ ./bhuone-maze-solver medium_maze.txt maze-path.txt -d
 
